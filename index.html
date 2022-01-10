@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Climber tools</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+
+<body>
+    <h1>Will it break?</h1>
+    <form id="form">
+        <p>Enter your weight (in 
+            <input type="radio" id="kg" name="units" value="kg" style="white-space:nowrap" checked>
+            <label for="kg">kg</label>
+            <input type="radio" id="lb" name="units" value="lb" style="white-space:nowrap">
+            <label for="lb">lb</label>
+        )
+        </p>
+        <input id="body_weight" type="text">
+        <p>Enter weight of gear</p>
+        <input id="gear_weight" type="text">
+        <p>Enter clip rating</p>
+        <input id="clip_rating" type="text">
+        <input type="submit" value="calculate">
+    </form>
+    <div id="result"></div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
+
+
